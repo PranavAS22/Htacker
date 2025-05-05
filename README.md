@@ -15,7 +15,7 @@
 - 📅 View and track historical entries
 - 💾 Persistent data storage with MongoDB
 - 📱 Built with React Native for cross-platform mobile use
-- ⚙️ Next.js backend API for handling and storing data
+- ⚙️ Nest.js backend API for handling and storing data
 
 ---
 
@@ -37,7 +37,7 @@
 | Layer        | Tech                               |
 |--------------|-------------------------------------|
 | Frontend     | React Native (Expo)                 |
-| Backend      | Next.js (API routes)                |
+| Backend      | Nest.js (API routes)                |
 | Database     | MongoDB (via Mongoose)              |
 | Language     | TypeScript                          |
 
@@ -53,19 +53,19 @@
 - MongoDB (local or Atlas)
 - `.env` file for the backend
   
- Frontend (React Native)
+ ##Frontend (React Native)
 
- cd htacker-app
+cd htacker-app
 yarn install
 expo start
 
-Backend (Next.js + MongoDB)
+##Backend (Nest.js + MongoDB)
 
 cd htacker-api
 yarn install
 yarn dev
 
-Ensure your .env file in Server/ looks like this:
+##Ensure your .env file in Server/ looks like this:
 
 PORT=3000 
 
