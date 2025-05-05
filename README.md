@@ -65,7 +65,7 @@ cd htacker-api
 yarn install
 yarn dev
 
-Ensure your .env file in Server/Backend/ looks like this:
+Ensure your .env file in Server/ looks like this:
 
 PORT=3000 
 
