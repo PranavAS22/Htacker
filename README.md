@@ -40,8 +40,7 @@
 | Backend      | Next.js (API routes)                |
 | Database     | MongoDB (via Mongoose)              |
 | Language     | TypeScript                          |
-| API Comm     | REST (Axios/Fetch)                  |
-| State Mgmt   | React hooks / Context API *(WIP)*   |
+
 
 ---
 
