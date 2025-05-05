@@ -53,19 +53,19 @@
 - MongoDB (local or Atlas)
 - `.env` file for the backend
   
- ##Frontend (React Native)
+## Frontend (React Native)
 
 cd htacker-app
 yarn install
 expo start
 
-##Backend (Nest.js + MongoDB)
+## Backend (Nest.js + MongoDB)
 
 cd htacker-api
 yarn install
 yarn dev
 
-##Ensure your .env file in Server/ looks like this:
+## Ensure your .env file in Server/ looks like this:
 
 PORT=3000 
 
