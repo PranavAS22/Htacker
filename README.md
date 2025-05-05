@@ -67,6 +67,6 @@ yarn dev
 
 Ensure your .env file in Server/Backend/ looks like this:
 
-PORT=3000
-SECRET_KEY=hey
-NODE_ENV=development
+PORT=3000 //
+SECRET_KEY=hey  //
+NODE_ENV=development //
