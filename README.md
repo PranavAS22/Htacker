@@ -28,7 +28,7 @@
 - [ ] Entry editing and deletion
 - [ ] User authentication (JWT/session-based)
 - [ ] Analytics and charts (progress over time)
-- [ ] Cloud deployment (Vercel + MongoDB Atlas)
+
 
 ---
 
