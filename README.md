@@ -1,2 +1,73 @@
-# Htacker
-htacker is a lightweight fitness tracking app that helps users monitor their daily health metrics. Users can log their steps, calorie intake, and water consumption, save the data, and view a history of their entries to track progress over time.
+# 🏃‍♂️ htacker – Personal Fitness Tracker
+
+**htacker** is a simple and lightweight personal fitness tracker where users can log their daily health data — including steps, calorie intake, and water consumption — and view the history of their progress over time.
+
+> ⚠️ **Note:** This project is under active development. Expect changes, feature additions, and improvements as we go.
+
+---
+
+## ✨ Features
+
+- ✅ Log daily fitness data:
+  - Steps walked
+  - Calories consumed
+  - Water intake (liters/ml)
+- 📅 View and track historical entries
+- 💾 Persistent data storage with MongoDB
+- 📱 Built with React Native for cross-platform mobile use
+- ⚙️ Next.js backend API for handling and storing data
+
+---
+
+## 🚧 Roadmap
+
+- [x] Log steps, calories, water
+- [x] Connect React Native frontend to Next.js backend
+- [x] Store and retrieve data using MongoDB
+- [x] TypeScript integration across frontend and backend
+- [ ] Entry editing and deletion
+- [ ] User authentication (JWT/session-based)
+- [ ] Analytics and charts (progress over time)
+- [ ] Cloud deployment (Vercel + MongoDB Atlas)
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer        | Tech                               |
+|--------------|-------------------------------------|
+| Frontend     | React Native (Expo)                 |
+| Backend      | Next.js (API routes)                |
+| Database     | MongoDB (via Mongoose)              |
+| Language     | TypeScript                          |
+| API Comm     | REST (Axios/Fetch)                  |
+| State Mgmt   | React hooks / Context API *(WIP)*   |
+
+---
+
+## 🧪 Running the App Locally
+
+### Prerequisites
+
+- Node.js + npm or yarn
+- Expo CLI (`npm install -g expo-cli`)
+- MongoDB (local or Atlas)
+- `.env` file for the backend
+  
+ Frontend (React Native)
+
+ cd htacker-app
+yarn install
+expo start
+
+Backend (Next.js + MongoDB)
+
+cd htacker-api
+yarn install
+yarn dev
+
+Ensure your .env file in Server/Backend/ looks like this:
+
+PORT=3000
+SECRET_KEY=hey
+NODE_ENV=development
